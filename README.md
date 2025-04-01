@@ -108,13 +108,10 @@ The similarity check helps prevent:
 1. Adding incorrect tracks that happen to match search terms
 2. Missing tracks due to slight differences in formatting or spelling
 
-## License
-
-MIT
-
 ## Notes
 
 - The Telegram music metadata extraction may require you to authenticate with your Telegram account
 - Spotify search may not find all tracks depending on how well the metadata matches Spotify's database
 - You can tune the similarity threshold based on your needs: higher for more precision, lower for more matches
-- You can modify the extraction process or search functionality to improve results 
+- You can modify the extraction process or search functionality to improve results (I'm open to PRs)
+- Last but not least, It's a personal project to help me migrate my music from Telegram to Spotify :)
